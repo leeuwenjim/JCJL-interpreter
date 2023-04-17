@@ -1,0 +1,5 @@
+int function hello
+    string name is call input "Wat is je naam?"
+    call print "Hello world"
+    call print name
+    return 0

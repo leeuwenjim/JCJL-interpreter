@@ -1,0 +1,14 @@
+int function sommig_while int n
+    int result is 0
+    while n greaterthanequals 1
+        result plusis n
+        n minmin
+    endwhile
+    return result
+
+int function sommig_for int n
+    int result is 0
+    for int i is n while i greaterthanequals 1 with i minmin
+        result plusis i
+    endfor
+    return result

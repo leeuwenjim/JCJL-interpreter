@@ -1,0 +1,24 @@
+bool function is_odd int n
+    bool result is false
+    if n notequals 0
+        n minmin
+        result is call is_even n
+    endif
+    return result
+
+bool function is_even int n
+    bool result is true
+    if n notequals 0
+        n minmin
+        result is call is_odd n
+    endif
+    return result
+
+int function even_or_odd int n
+    bool is_n_even is call is_even n
+    if is_n_even equals true
+        call print "given value is even"
+    else
+        call print "given value is odd"
+    endif
+    return 0
